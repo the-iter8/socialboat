@@ -37,7 +37,7 @@ function App() {
         });
       }
     }, 350),
-    []
+    [debounce]
   );
 
   useEffect(() => {
